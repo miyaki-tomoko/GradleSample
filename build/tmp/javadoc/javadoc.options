@@ -1,0 +1,7 @@
+-classpath 'C:\\Users\\ponchan\\IdeaProjects\\GradleSample\\build\\classes\\java\\main;C:\\Users\\ponchan\\IdeaProjects\\GradleSample\\build\\resources\\main'
+-d 'C:\\Users\\ponchan\\IdeaProjects\\GradleSample\\build\\docs\\javadoc'
+-doctitle 'GradleSample 1.0-SNAPSHOT API'
+-notimestamp 
+-quiet 
+-windowtitle 'GradleSample 1.0-SNAPSHOT API'
+'C:\\Users\\ponchan\\IdeaProjects\\GradleSample\\src\\main\\java\\Main.java'
