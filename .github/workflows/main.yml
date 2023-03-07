@@ -4,7 +4,7 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
-      - run: ./decrypt_secret.sh
+      - run: |
               echo "this is pen" >> pen.csv;
               more pen.csv;
               echo "${{ secrets.TEST001 }}" >>test.csv;
