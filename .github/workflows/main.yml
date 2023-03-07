@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-              echo "this is pen";
+              echo "this is pen" >> pen.csv;
+              more pen.csv;
               echo "${{ secrets.TEST001 }}" >>test.csv;
               more test.csv;
